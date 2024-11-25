@@ -1,0 +1,33 @@
+# Node.js y npm
+node_modules/
+npm-debug.log*
+yarn-error.log
+pnpm-debug.log*
+
+# Directorios de compilación y distribuciones
+dist/
+build/
+out/
+.serve/
+
+# Archivos de configuración de entorno
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+*.gz
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de bases de datos temporales (en caso de desarrollo local)
+*.sqlite
+*.sqlite3
+*.db
+
+# Archivos estáticos generados dinámicamente
+public/assets/
+public/static/
